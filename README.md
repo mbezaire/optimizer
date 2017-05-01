@@ -46,7 +46,6 @@ You can get eFEL with `pip`:
    
 You can get `matplotlib` with the following command:
 
-
     Debian / Ubuntu : sudo apt-get install python-matplotlib
     Fedora / Redhat : sudo yum install python-matplotlib
 
@@ -56,12 +55,15 @@ If you encounter any difficulties you can find a more detailed description at:
 
 You can get `wxpython` with the following command:
 
-
     apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n
     
 This command might not work if your OS has an earlier version in the standard software repository. If so, please follow the instructions at:
     
     http://wiki.wxpython.org/InstallingOnUbuntuOrDebian
+    
+On Mac OS X, you can install `wxpython` using the following command:
+    
+    brew install wxpython
 
 Currently, Optimizer works properly only with version 2.8 of wxpython. Some distributions (e.g., Ubuntu 16.04) may install version 3.0 instead (or in addition to) 2.8. In this case, please remove version 3.0 and make sure to install only version 2.8. Support for later versions of wxpython will be added to Optimizer in the future.
     
